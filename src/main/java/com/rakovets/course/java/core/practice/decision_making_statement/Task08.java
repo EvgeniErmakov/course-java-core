@@ -43,8 +43,6 @@ class Task08 {
         if (hasHolyAttribute == true) {
             switch (typeMob) {
                 case ("ZOMBIE"):
-                    tottalDamage = damage + damage / 2;
-                    break;
                 case ("UNDEAD"):
                     tottalDamage = damage + damage / 2;
                     break;
